@@ -5,15 +5,18 @@
         <meta http-equiv="Content-Type" content='text/html';charset="utf-8">
         <meta name='viewport' content='width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1 user-scalable=no'>
         <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
-
-        <link rel="stylesheet" type="text/css" href="css/framework.css">
+<!---
+        <link rel="stylesheet" type="text/css" href="css/framework.css"> --->
+      
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <title>Boiler Plate</title>
+        
     </head>
-
     <body>
+    <div class='container-fluid'>
        <div class='row'>
-            <div class='col-12 border'>
+            <div class='col-md-12 border'>
                 <header id='header'>
                 
                     <h1>Website</h1>
@@ -23,7 +26,7 @@
         </div>
         
         <div class='row'>
-            <div class='col-12 border'>
+            <div class='col-md-12 border'>
               <nav id="nav">
                   <ul class="button-wrap"> 
                       <button> <a href="http://www.miamicountysports.com/Paola%20High%20School%20v3.0/01.%20PHS%20Football%20Site%20Folder/2016%20Panther%20Football/01.16-17phsfbpip.html">STORY 1</a> </button>
@@ -36,23 +39,18 @@
         </div>    
                                     
             <div class='row max-width'>
-                <div class='col-8 border'>
+                <div class='col-md-8 border'>
                     <div id="main-content-wrapper">
-                        <div class="side-by-side">
-                            <section class="image-content">
-                            
+ <!-- <div class="side-by-side"> -->
+                        <div class='row'>
+                            <section class="image-content col-6">
                                 <img src="css/img/me.jpg">
-                                <h4>
-                                <a href="https:google.com">Josh Tegarden</a>    
-                                </h4>    
-                                
-                            </section>
-                            <article>
+                                    <h4>
+                                    <a href="https:google.com">Josh Tegarden</a>    
+                                    </h4>    
                                 <h2> Summary </h2>
-                                <p>Keanu Charles Reeves born September 2, 1964 is an American-Canadian actor, producer, and musician. Reeves is best known for his acting career, beginning in 1985 and spanning more than three decades.
-                                
-                            </p></article>
-                        
+                                <p>Keanu Charles Reeves born September 2, 1964 is an American-Canadian actor, producer, and musician. Reeves is best known for his acting career, beginning in 1985 and spanning more than three decades.</p>
+                            </section>
                         </div>
                         <section id="skills">
                             <h5>
@@ -65,7 +63,7 @@
                     
                     </div>
                 </div>
-                    <div class='col-4 border'>
+                    <div class='col-md-4 border'>
                         <div id="aside-content-wrapper">
                             <aside id="aside-right">
                                 <h3>Latest Work</h3>
@@ -85,30 +83,31 @@
                   
             </div>  
         
-        <div id="favorite-websites" class="row">
-            
-                <div class='col-4 border'>
-                    <img src="css/img/PS.png" style="width:100px;height:100px;">
+        <div id="favorite-websites">
+            <div class="row">
+                <div class='col-md-4 border'>
+                    <img class="img-responsive" src="css/img/PS.png" style="width:100px;height:100px;">
                 </div>
-                <div class='col-4 border'>
-                    <img src="css/img/ID.png" style="width:100px;height:100px;">
+                <div class='col-md-4 border'>
+                    <img class="img-responsive" src="css/img/ID.png" style="width:100px;height:100px;">
                 </div>
-                <div class='col-4 border'>
-                    <img src="css/img/AI.png" style="width:100px;height:100px;">
+                <div class='col-md-4 border'>
+                    <img class="img-responsive" src="css/img/AI.png" style="width:100px;height:100px;">
                 </div>
-            
+            </div>
         </div>        
         <div class='row'>
-            <div class='col-12 border'>
+            <div class='col-md-12 border'>
                 <footer><h1>bottom</h1></footer>   
+                
             </div>
-        </div>
-    <script src="js/main.js"> </script>
+        </div> 
+    </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"> </script>
 
         
-
-
-    <script src='js/main.js'> </script>
     </body>
     
 </html>
